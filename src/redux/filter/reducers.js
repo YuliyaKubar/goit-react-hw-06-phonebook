@@ -1,5 +1,5 @@
 export const reducersFilter = {
-  changeContact: (state, { payload }) => {
-    state.filter = payload;
+  changeFilter: (_, { payload }) => {
+    return payload;
   },
 };
